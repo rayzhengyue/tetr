@@ -1,0 +1,92 @@
+table{
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid gray;
+}
+td{
+    padding:0 100px;
+}
+
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+}
+.test2{
+    background: black;
+    color: white;
+    flex-basis: 31%;
+    display: block;
+}
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    transform: translate(50%,-50%)
+  }
+
+  .circle-button {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0044AD;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .circle-button-x {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    /* font-weight: bold; */
+  }
+
+  .divC{
+    display: flex;
+    justify-content: center;
+  }
+  .tt{
+    width: 50vw;
+    display: flex;
+  }
+  .aa{
+    min-width: 14px;
+    min-height: 14px;
+    background-color: red;
+  }
+  .test123{
+    display: flex;
+    flex-direction: column;
+  }
+  .ultest{
+    list-style: none;
+    padding-left: 0;
+  }
+  .ff{
+    display: flex;
+    align-items: center;
+  }
+  .circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
